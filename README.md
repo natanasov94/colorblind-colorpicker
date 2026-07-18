@@ -14,7 +14,8 @@ The best method so far i've found, is to create a HSV decision tree, and use tha
 
 Essentially it is just a very simple decision tree, mostly relying on the Hue value that follows the wheel below, but also looks at saturation and value for detecting Brown, Gray, Black and White
 
-This is the color wheel implementation i have got implemented as a generic set of colors i personally use (well try to at least) on a day to day basis
+This is the color wheel implementation i have got implemented as a generic set of colors i personally use (well try to at least) on a day to day basis/
+Note: I am playing around with the boundaries of each color, currently they are all shifted by 15 degrees to the left
 ![color_wheel](docs/color_wheel.png "Color wheel")
 
 ## How to use
