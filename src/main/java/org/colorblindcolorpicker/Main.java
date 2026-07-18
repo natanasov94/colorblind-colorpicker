@@ -1,0 +1,17 @@
+package org.colorblindcolorpicker;
+
+import com.github.kwhat.jnativehook.GlobalScreen;
+import com.github.kwhat.jnativehook.NativeHookException;
+
+public class Main {
+    static void main(String[] args) {
+        try {
+            GlobalScreen.registerNativeHook();
+        }
+        catch (NativeHookException ex) {
+            System.exit(1);
+        }
+        GlobalScreen.addNativeMouseListener(new GlobalMouseListener());
+        GlobalScreen.addNativeKeyListener(new KeyListener());
+    }
+}
