@@ -7,10 +7,12 @@ An example question i've had is `I want to color leaves, which color is green` a
 So, i decided i want to create a very simple, and, hopefully usable color picker that sole purpose isn't to copy hex/rgb
 values into clipboard, but instead interprets what the color you have selected is, and tells you in plain English.
 
-If this helps even one other person, i will be glad
+If this helps even one other person, I will be glad. If anyone else has some improvements to add to this, by all means.
 
 ## Detection method
 The best method so far i've found, is to create a HSV decision tree, and use that one, with possible tweaks. I don't need much colors, i just need to figure out `is this a green or is this a brown color`, i don't need the actual "fancy" name.
+
+Essentially it is just a very simple decision tree, mostly relying on the Hue value that follows the wheel below, but also looks at saturation and value for detecting Brown, Gray, Black and White
 
 This is the color wheel implementation i have got implemented as a generic set of colors i personally use (well try to at least) on a day to day basis
 ![color_wheel](docs/color_wheel.png "Color wheel")
