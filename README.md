@@ -26,6 +26,7 @@ Note: I am playing around with the boundaries of each color, currently they are 
 - After clicking, a small popup will show up on your screen with the estimation on what color it is
   - I also included some additional info, like RGB values, HSV values and hex representation so it functions as an actual color picker
 - To remove the popup, just press `Esc`
+
 ![example](docs/example.png "Example")
 
 I've checked with multiple non-colorblind people, and for the most part, this gives the correct results.
