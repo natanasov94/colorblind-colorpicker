@@ -19,7 +19,9 @@ Note: I am playing around with the boundaries of each color, currently they are 
 ![color_wheel](docs/color_wheel.png "Color wheel")
 
 ## How to use
+> Only tested for Windows at this point
 - Start application
+  - A system tray icon ![tray-icon](src/main/resources/colorblindcolorpicker-icon.png) will be added. You can use this to exit the application
 - While running, press `Ctrl` + `Alt` + `Shift` + `/`
 - Your cursor will turn into a little cross
 - Select the pixel / color you want to check out, and click

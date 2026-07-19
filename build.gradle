@@ -20,6 +20,17 @@ application {
     mainClass = 'org.colorblindcolorpicker.Main'
 }
 
+tasks.register("packageApp", Exec) {
+    commandLine "jpackage",
+            "--verbose",
+            "--type", "app-image",
+            "--name", "Colorblind Color Picker",
+            "--input", "build/libs",
+            "--main-jar", "colorblindcolorpicker-1.0.0.jar",
+            "--main-class", "org.colorblindcolorpicker.Main",
+            "--dest", "dist"
+}
+
 jar {
     manifest {
         attributes(
