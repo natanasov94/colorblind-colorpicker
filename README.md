@@ -19,7 +19,7 @@ Note: I am playing around with the boundaries of each color, currently they are 
 ![color_wheel](docs/color_wheel.png "Color wheel")
 
 ## How to use
-> Only tested for Windows at this point
+> Only tested for Windows at this point. Running the Jar on Linux/Mac should still work fine since it's java
 - Start application
   - A system tray icon ![tray-icon](src/main/resources/colorblindcolorpicker-icon.png) will be added. You can use this to exit the application
 - While running, press `Ctrl` + `Alt` + `Shift` + `/`
