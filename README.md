@@ -18,15 +18,13 @@ This is the color wheel implementation i have got implemented as a generic set o
 Note: I am playing around with the boundaries of each color, currently they are all shifted by 15 degrees to the left
 ![color_wheel](docs/color_wheel.png "Color wheel")
 
-## How to use
-### How to get
-- Download
+## How to get
   - [Windows executable in zip](https://github.com/natanasov94/colorblind-colorpicker/releases/download/1.0.0/colorblind-color-picker_1-0-0.zip)
   - [Jar file for Linux/Mac](https://github.com/natanasov94/colorblind-colorpicker/releases/download/1.0.0/colorblindcolorpicker-1.0.0.jar)
     - I haven't made the executable for those yet
   - Or clone the repo and build yourself, that also works
 
-
+## Usage
 - Start application
   - A system tray icon ![tray-icon](src/main/resources/colorblindcolorpicker-icon.png) will be added. You can use this to exit the application
 - While running, press `Ctrl` + `Alt` + `Shift` + `/`
