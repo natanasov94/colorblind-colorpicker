@@ -20,8 +20,8 @@ Note: I am playing around with the boundaries of each color, currently they are 
 
 ## How to use
 ### How to get
-- ![Windows executable in zip](https://github.com/natanasov94/colorblind-colorpicker/releases/download/1.0.0/colorblind-color-picker_1-0-0.zip)
-- ![Jar file](https://github.com/natanasov94/colorblind-colorpicker/releases/download/1.0.0/colorblindcolorpicker-1.0.0.jar)
+- [Windows executable in zip](https://github.com/natanasov94/colorblind-colorpicker/releases/download/1.0.0/colorblind-color-picker_1-0-0.zip)
+- [Jar file](https://github.com/natanasov94/colorblind-colorpicker/releases/download/1.0.0/colorblindcolorpicker-1.0.0.jar)
   - I haven't made the executable for those yet
 
 - Start application
